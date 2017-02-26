@@ -23,6 +23,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import io.realm.examples.adapters.ui.listview.ListViewExampleActivity;
+import io.realm.examples.adapters.ui.pager.PagerExampleActivity;
 import io.realm.examples.adapters.ui.recyclerview.RecyclerViewExampleActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -35,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
         setupButton(R.id.button_listview, ListViewExampleActivity.class);
         setupButton(R.id.button_recyclerview, RecyclerViewExampleActivity.class);
+        setupButton(R.id.button_pager, PagerExampleActivity.class);
     }
 
     void startActivity(Class<? extends Activity> activityClass) {

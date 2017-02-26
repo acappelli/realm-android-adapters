@@ -21,6 +21,7 @@ android {
 dependencies {
     provided "com.android.support:recyclerview-v7:${supportLibraryVersion}"
     provided "io.realm:realm-android-library:${realmVersion}"
+    compile 'com.android.support:support-v4:25.1.0'
 }
 
 task findbugs(type: FindBugs) {
